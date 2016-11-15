@@ -1,0 +1,23 @@
+{
+    "name": "mervyn/wechat",
+    "description": "wechat sdk for third party platform",
+    "type": "library",
+    "require": {
+        "php":">=5.5.0",
+        "doctrine/cache": "^1.6",
+        "pimple/pimple": "^3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mervyn",
+            "email": "404245127@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Wechat\\": "src/"
+        }
+    }
+}
